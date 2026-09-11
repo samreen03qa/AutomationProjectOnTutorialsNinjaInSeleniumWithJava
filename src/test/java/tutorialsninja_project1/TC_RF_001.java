@@ -61,6 +61,8 @@ public class TC_RF_001 {
 		driver.findElement(By.linkText("Continue")).click();
 		
 		Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
+		//Close the broswer
+		driver.close();
 	}
 
 	public String generateNewEmail() {
