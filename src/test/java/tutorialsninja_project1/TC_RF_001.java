@@ -17,7 +17,7 @@ public class TC_RF_001 {
 		// Launch the Browser
 		WebDriver driver=new ChromeDriver();
 		//Wait statement
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//Maximize the window
 		driver.manage().window().maximize();
 		//Navigate to an Appliction
